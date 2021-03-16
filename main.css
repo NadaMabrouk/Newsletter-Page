@@ -80,7 +80,6 @@ header p {
 
 .current-openings {
 	width: 35%; 
-	height: 100%;
 	vertical-align: middle; 
 	font-family: 'Futura-Medium', sans-serif;
 	text-align: center;
@@ -109,13 +108,12 @@ header p {
 	text-align: justify;
 	vertical-align: middle;
 	width: 65%;
-	height: 100%;
 }
 
 .jobs ul {
 	list-style-type: none;
 	font-family: 'Avenir-Book','Times New Roman',serif;
-	font-size: 0.8em;
+	font-size: 0.7em;
 	padding-inline-start: 20px;
 }
 

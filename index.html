@@ -9,26 +9,39 @@
 			color:inherit !important;
 			text-decoration: none !important;
 		}
-		@media screen and (max-device-width: 767px),
-		screen and (max-width: 767px)     {
-				.career-section tr{
-					display: block;
+		@media screen and (max-device-width: 567px),
+		screen and (max-width: 567px)     {
+				table tr td {
+					display: block !important;
+					width: 100% !important;
+				}
+				tr{
 					text-align: center;
-					width: 100%;
 					margin:20px auto;
 				}
-				.career-section td{
-					display: block;
+
+				td{
+					position: relative;
 			        font-size: 15px;
 				}
+				.date-banner td p {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					-ms-transform: translate(-50%, -50%);
+  					transform: translate(-50%, -50%);
+				}
+				
 				.current-openings {
 					margin: auto;
 					width: 50%;
 				}
+
 				.jobs {
 					width: 100%;
 					text-align: center;
 				}
+
 		} 
 	</style>
 </head>
@@ -40,38 +53,74 @@
 	</header>
 	<table class="date-banner" style="border-spacing: 0px;">
 		<tr>
-			<td>MARCH 2021</td>
+			<td><p>MARCH 2021</p></td>
 		</tr>
 	</table>
 	<div class="middle-photo">
 		<img src="https://i.ibb.co/WzJZdty/img1.png" alt="img1" border="0">
 	</div>
-	<table class="career-section" style="border-spacing: 0px;">
-        <tr style="width:100%; height: 250px;">
-        	<td class="current-openings">
-	            <div>
-	                <h2>Current Openings</h2>
-					<p>Visit <a href="https://careers.mimutual.com/page/open-positions">Our Page </a>  to apply</p>
-	            </div>
-	        </td>
-            <td class="jobs"> 
-                <ul>
-					<li><a href="#">Mortgage Branch Manager – Remote</a></li>
-					<li><a href="#">Mortgage Loan Officer – Remote</a></li>
-					<li><a href="#">Account Executive – Inside Sales – Remote</a></li>
-					<li><a href="#">Mortgage Underwriter – Remote</a></li>
-					<li><a href="#">Sr. TRID Specialist – Southfield, MI</a></li>
-					<li><a href="#">Final Documents Coordinator – Port Huron, MI</a></li>
-					<li><a href="#">Mortgage Closer – Remote</a></li>
-					<li><a href="#">Mortgage Post Closer – Southfield, MI</a></li>
-					<li><a href="#">Mortgage Underwriting Training Manager – Port Huron & Southfield, MI</a></li>
-				</ul>
-            </td>
-        </tr>
-    </table>
-    <table>
-    	
-    </table>
+	<div style="width:100%;">
+		<table style="border-spacing: 0px;">
+	        <tr style="height: 250px;width:100%; ">
+	        	<td colspan="4" class="current-openings">
+		            <div>
+		                <h2>Current Openings</h2>
+						<p>Visit <a href="https://careers.mimutual.com/page/open-positions">Our Page </a>  to apply</p>
+		            </div>
+		        </td>
+	            <td colspan="8" class="jobs"> 
+	                <ul>
+						<li><a href="#">Mortgage Branch Manager – Remote</a></li>
+						<li><a href="#">Mortgage Loan Officer – Remote</a></li>
+						<li><a href="#">Account Executive – Inside Sales – Remote</a></li>
+						<li><a href="#">Mortgage Underwriter – Remote</a></li>
+						<li><a href="#">Sr. TRID Specialist – Southfield, MI</a></li>
+						<li><a href="#">Final Documents Coordinator – Port Huron, MI</a></li>
+						<li><a href="#">Mortgage Closer – Remote</a></li>
+						<li><a href="#">Mortgage Post Closer – Southfield, MI</a></li>
+						<li><a href="#">Mortgage Underwriting Training Manager – Port Huron & Southfield, MI</a></li>
+					</ul>
+	            </td>
+	        </tr>
+	        <tr style="height:200px;width:100%;background-color:#f7f8f8;">
+	            <td colspan="3" style="text-align:center;font-family:'Futura-Medium', sans-serif;">
+	    			<p style="font-size:20px;font-weight:bold;color:#007698;padding: 15px;"> WHAT OUR EMPLOYEES ARE SAYING</p>
+	    		</td>
+	    		<td colspan="3" style="font-size:12px;font-family: 'Avenir-Book','Times New Roman',serif;">
+	    			<div>
+		    			<p style="padding:5px;height: 30px;">JEFFREY</p>
+						<p style="height:100px;padding:5px;">“MiMutual is a great place to work. Fast underwriting, great support staff 
+							and systems… I really feel like the company cares.”</p>
+					</div>
+	    		</td>
+	    		<td colspan="3" style="font-size:12px;font-family: 'Avenir-Book','Times New Roman',serif;">
+	    			<div>
+		    			<p style="padding:5px;height:30px;">DUANE</p>
+		    			<p style="height:100px;padding:5px;">“The owners, managers, and coworkers all treat you as family. Everyone
+							works together for the success of the
+							customers experience and benefit.
+							This has been a wonderful business to
+							work in.”</p>
+					</div>
+	    		</td>
+	    	</tr>
+	    	<tr style="height:250px">
+	    		<td colspan="8">
+	    			<div>
+	    				<p style="font-size:20px;font-weight:bold;padding:2px 2px 2px 0px;font-family:'Futura-Medium', sans-serif; color:#007698">What makes us different</p>
+	    				<p style="font-size:12px;font-family: 'Avenir-Book','Times New Roman';margin-bottom: 5px;">We have a culture that believes in quality of work as well and quality of life. One that respects your entrepreneurial spirit and provides the support you need. A lender with an approach that is both innovative and compliant. One that has the products, processes and technology you need to reach your business goals.</p>
+	    			
+	    				<p style="font-size:20px;font-weight:bold;padding:2px 2px 2px 0px;font-family:'Futura-Medium', sans-serif; color:#007698">2021 New Branches</p>
+	    				<p style="font-size:12px;font-family: 'Avenir-Book','Times New Roman';margin-bottom: 5px;">Okemos, Michigan</p>
+	    			</div>
+	    		</td>
+	    		<td colspan="4">
+	    			<img height="200px;" width="195px;" src="https://i.ibb.co/cFMnDp0/img2.png" alt="img2" border="0">
+	    		</td>
+	    	</tr>
+	    </table>
+	</div>
+    
 	
 </body>
 </html>
