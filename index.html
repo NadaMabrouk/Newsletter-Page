@@ -11,16 +11,23 @@
 		}
 		@media screen and (max-device-width: 767px),
 		screen and (max-width: 767px)     {
-				.current-openings {
-					display: table-row;
-					width:171px !important;
+				.career-section tr{
+					display: block;
+					text-align: center;
+					width: 100%;
+					margin:20px auto;
 				}
-				.current-openings > div {
-					width:60% !important;
+				.career-section td{
+					display: block;
+			        font-size: 15px;
+				}
+				.current-openings {
+					margin: auto;
+					width: 50%;
 				}
 				.jobs {
-					display: table-row;
-					width:100% !important;
+					width: 100%;
+					text-align: center;
 				}
 		} 
 	</style>
@@ -31,7 +38,7 @@
 		<h1>MiMutual Quarterly</h1>
 		<p>Your guide to opportunities and news at MiMutual Mortgage.</p>
 	</header>
-	<table class="date-banner">
+	<table class="date-banner" style="border-spacing: 0px;">
 		<tr>
 			<td>MARCH 2021</td>
 		</tr>
@@ -39,7 +46,7 @@
 	<div class="middle-photo">
 		<img src="https://i.ibb.co/WzJZdty/img1.png" alt="img1" border="0">
 	</div>
-	<table>
+	<table class="career-section" style="border-spacing: 0px;">
         <tr style="width:100%; height: 250px;">
         	<td class="current-openings">
 	            <div>
@@ -61,6 +68,9 @@
 				</ul>
             </td>
         </tr>
+    </table>
+    <table>
+    	
     </table>
 	
 </body>
