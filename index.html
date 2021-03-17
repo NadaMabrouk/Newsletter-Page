@@ -2,9 +2,39 @@
 <html>
 <head>
 	<title></title>
+<!-- 	Images used 
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/3NgL3R0/equal-housing-lender-gray.png" alt="equal-housing-lender-gray" border="0"></a>
+<a href="https://ibb.co/pKFcsyz"><img src="https://i.ibb.co/WzJZdty/img1.png" alt="img1" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/cFMnDp0/img2.png" alt="img2" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/6b22NVm/img3.png" alt="img3" border="0"></a>
+<a href="https://ibb.co/q7SJwHD"><img src="https://i.ibb.co/KbPKHt5/Mi-Mutual-Logo-CMYK.png" alt="Mi-Mutual-Logo-CMYK" border="0"></a>
+<a href="https://ibb.co/9VHP6t7"><img src="https://i.ibb.co/z7VdpJz/Mi-Mutual-Logo-CMYK.png" alt="Mi-Mutual-Logo-CMYK" border="0"></a> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="main.css">
 	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		p {
+			margin-block-start: 0em;
+		    margin-block-end: 0em;
+		    margin-inline-start: 0px;
+		    margin-inline-end: 0px;
+		}
+
+		@font-face {
+		    font-family: 'Avenir-Book';
+		    src: url('fonts/Avenir.ttc') format('TrueType');
+		    font-weight: 400;
+		    font-style: normal;
+		}
+
+		@font-face {
+		    font-family: 'Futura-Medium';
+		    src: url('fonts/Futura.ttc') format('TrueType');
+		    font-style: normal;
+		    font-weight: 500;
+		}
 		.jobs a {
 			color:inherit !important;
 			text-decoration: none !important;
@@ -16,25 +46,25 @@
 					width: 100% !important;
 				}
 				tr{
-					text-align: center;
-					margin:20px auto;
+					text-align: center !important;
+					margin:20px auto !important;
 				}
 
 				td{
-					position: relative;
-			        font-size: 15px;
+					position: relative !important;
+			        font-size: 15px !important;
 				}
 				.date-banner td p {
-					position: absolute;
-					top: 50%;
-					left: 50%;
-					-ms-transform: translate(-50%, -50%);
-  					transform: translate(-50%, -50%);
+					position: absolute !important;
+					top: 50% !important;
+					left: 50% !important;
+					-ms-transform: translate(-50%, -50%) !important;
+  					transform: translate(-50%, -50%) !important;
 				}
 				
 				.current-openings {
-					margin: auto;
-					width: 50%;
+					margin: auto !important;
+					width: 50% !important;
 				}
 
 				.jobs {
@@ -45,31 +75,33 @@
 		} 
 	</style>
 </head>
-<body>
-	<header>
-		<img src="https://i.ibb.co/z7VdpJz/Mi-Mutual-Logo-CMYK.png" alt="Mi-Mutual-Logo-CMYK" border="0"/>
-		<h1>MiMutual Quarterly</h1>
-		<p>Your guide to opportunities and news at MiMutual Mortgage.</p>
+<body style="max-width: 600px;margin:auto;padding-left: 24px; padding-right: 24px;">
+	<header style="width: 100%;text-align: center;background-color: #f7f8f8;padding: 20px;">
+		<img style="height:110px;" src="https://i.ibb.co/z7VdpJz/Mi-Mutual-Logo-CMYK.png" alt="Mi-Mutual-Logo-CMYK" border="0"/>
+		<h1 style="color: #007698;font-family: 'Futura-Medium', sans-serif;font-weight: 800;">MiMutual Quarterly</h1>
+		<p style="font-family: 'Avenir-Book','Times New Roman',serif;">Your guide to opportunities and news at MiMutual Mortgage.</p>
 	</header>
-	<table class="date-banner" style="border-spacing: 0px;">
-		<tr>
-			<td><p>MARCH 2021</p></td>
+	<table style="font-family: 'Avenir-Book','Times New Roman',serif;width: 100%;border: 0;border-spacing: 0px;">
+		<tr class="date-banner">
+			<td style="height:45px;background-color: #007698;color:#ffffff;text-align: center;">
+				<p>MARCH 2021</p>
+			</td>
 		</tr>
 	</table>
-	<div class="middle-photo">
-		<img src="https://i.ibb.co/WzJZdty/img1.png" alt="img1" border="0">
+	<div style="width: 100%;height:304px;background-color: #f7f8f8;">
+		<img style="height: 304px;width: 100%;" src="https://i.ibb.co/WzJZdty/img1.png" alt="img1" border="0">
 	</div>
 	<div style="width:100%;">
 		<table style="border-spacing: 0px;">
 	        <tr style="height: 250px;width:100%; ">
-	        	<td colspan="4" class="current-openings">
-		            <div>
+	        	<td colspan="4" style="width: 35%; vertical-align: middle; font-family: 'Futura-Medium', sans-serif;text-align: center;" class="current-openings">
+		            <div style="display: inline-block;height: 171px;width:90%;vertical-align: top;background-color: #007698;color: #ffffff;">
 		                <h2>Current Openings</h2>
-						<p>Visit <a href="https://careers.mimutual.com/page/open-positions">Our Page </a>  to apply</p>
+						<p style="font-size: 10px;">Visit <a style="font-size: 10px;color: #ffffff;" href="https://careers.mimutual.com/page/open-positions">Our Page </a>  to apply</p>
 		            </div>
 		        </td>
-	            <td colspan="8" class="jobs"> 
-	                <ul>
+	            <td colspan="8" class="jobs" style="text-align: justify;vertical-align: middle;width: 65%;"> 
+	                <ul style="list-style-type: none;font-family: 'Avenir-Book','Times New Roman',serif;font-size: 0.7em;padding-inline-start: 20px;">
 						<li><a href="#">Mortgage Branch Manager – Remote</a></li>
 						<li><a href="#">Mortgage Loan Officer – Remote</a></li>
 						<li><a href="#">Account Executive – Inside Sales – Remote</a></li>
